@@ -1,0 +1,11 @@
+const mudarTema = document.querySelector(".mudar-tema");
+
+function mudarBackground(){
+    if(document.body.style.backgroundColor === "white"){
+        document.body.style.backgroundColor = "black"
+    }else{
+        document.body.style.backgroundColor = "white"
+    }
+}
+
+mudarTema.addEventListener("click", mudarBackground);

@@ -21,12 +21,13 @@ header button{
     font-size: 15px;
     border-radius: 5px;
     border: none;
-    background-color: #E84A7F;
+    background-color: #1b1b3a;
+    color: white;
     cursor: pointer;
 }
 
 header button:hover, section button:hover{
-    background-color: #FF80AB;
+    background-color: #48488a;
     font-weight: bold;
 }
 
@@ -44,20 +45,20 @@ section{
     vertical-align: middle;
 }
 
-section h1{
+section .titulo03{
     font-size: 50px;
-    color: #F1628B;
+    color: #2c2c54;
     margin-bottom: 20px;
 }
 
-section h2{
+section .cor03{
     font-size: 35px;
-    color: #F1628B;
+    color: #2c2c54;
     margin-bottom: 20px;
 }
 
-span, p{
-    color: blueviolet;
+.par03{
+    color: #222233;
     text-align: justify;
 }
 
@@ -66,7 +67,7 @@ section button{
     height: 40px;
     border-radius: 5px;
     border: none;
-    background-color: #E84A7F;
+    background-color: #1b1b3a;
     margin-top: 30px;
     margin-bottom: 30px;
     cursor: pointer;
@@ -106,23 +107,19 @@ section{
     text-align: center;
 }
 
-section h1{
+section .titulo03{
     font-size: 50px;
-    color: #F1628B;
     margin-bottom: 20px;
     text-align: center;
 }
 
-section h2{
-    font-size: 35px;
+section .cor03{
     text-align: center;
-    color: #F1628B;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-span, p{
-    color: blueviolet;
+.par03{
     text-align: center;
     padding: 10px;
 }
