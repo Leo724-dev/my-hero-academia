@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin: 20px 20px 100px 0px;
+}
+
+header button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e87a7a;
+    cursor: pointer;
+}
+
+header button:hover, section button:hover{
+    background-color: #ffb3b3;
+    font-weight: bold;
+}
+
+main img{
+    width: 500px;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+
+section{
+    display: inline-block;
+    margin-left: 40px;
+    width: 700px;
+    vertical-align: middle;
+}
+
+section .titulo13{
+    font-size: 50px;
+    color: #f09595;
+    margin-bottom: 20px;
+}
+
+section .cor13{
+    font-size: 35px;
+    color: #f09595;
+    margin-bottom: 20px;
+}
+
+.par13{
+    color: #442f2f;
+    text-align: justify;
+}
+
+section button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e87a7a;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+@media screen and (max-width: 1295px){
+    header{
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 0px 50px 0px;
+}
+
+header button{
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+}
+
+main img{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+section{
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+section .titulo13{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section .cor13{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.par13{
+    text-align: center;
+    padding: 10px;
+}
+
+section button{
+    width: 170px;
+    height: 50px;
+}
+}
